@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.98115982.css",
+    "main.js": "/static/js/main.1a8ff6db.js",
+    "static/media/smartserv-logo.png": "/static/media/smartserv-logo.a37016cacb7087375ec0.png",
+    "index.html": "/index.html",
+    "main.98115982.css.map": "/static/css/main.98115982.css.map",
+    "main.1a8ff6db.js.map": "/static/js/main.1a8ff6db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98115982.css",
+    "static/js/main.1a8ff6db.js"
+  ]
+}

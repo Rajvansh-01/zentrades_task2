@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black !important;
+}
+
+.outmost{
+    width: auto;
+    height: 100%;
+    margin: 5%;
+    padding: 2.5%;
+    display: grid;
+    /* justify-content: center; */
+    /* align-items: center; */
+    overflow: hidden;
+    object-fit: contain;
+    /* border: 2px solid black; */
+    background-color: rgb(253 255 244);;
+}
+
+.upper-division{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.5%;
+}
+
+.upper-left{
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.upper-right{
+    /* border: 2px solid black; */
+    display: inline-block;
+    width: 48%;
+    margin-left: 2%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lower-division{
+    /* border: 2px solid black; */
+    display: block;
+    margin-top: 1%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+.first-column-first-div, .first-column-sec-div, .sec-column-first-div, .sec-column-sec-div{
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.third-column-first-div, .third-column-sec-div{
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2.5%;
+}
+
+.third-column-sec-div{
+    width: 50%;
+}
+
+/* 
+.sec-column-sec-div{
+    display: inline-flex;
+    align-items:flex-start;
+    flex-direction: column;
+} */
+
+.button-step3{
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.action{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+.actionButton{
+    width: 5.5rem;
+    background-color: rgb(120, 209, 120);
+    color: white !important;
+    padding: 0.4rem;
+    margin: 0.1rem;
+    border: none;
+    outline: none;
+}
+
+.cancel{
+    background-color: white;
+    color: black !important;
+    border: 0.2px solid black;
+}
+
+.actionButton:hover{
+    background-color: black;
+    color: white !important;
+    font-weight: bold;
+}
+
+#availableFields, #selectedFields{
+    padding: 5px;
+}
+
